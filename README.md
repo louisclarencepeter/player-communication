@@ -33,7 +33,7 @@ Ensure Maven is installed on your system. You can download it from the official 
 
 1. **Clone the Repository**:
 ```sh
-git clone <https://github.com/louisclarencepeter/player-communication>
+git clone <git@github.com:louisclarencepeter/player-communication.git>
 cd player-communication
 ```
 

@@ -32,33 +32,33 @@ Ensure Maven is installed on your system. You can download it from the official 
 ## Build and Run the Project
 
 1. **Clone the Repository**:
-    ```sh
-    git clone <repository-url>
-    cd player-communication
-    ```
+```sh
+git clone <https://github.com/louisclarencepeter/player-communication>
+cd player-communication
+```
 
 2. **Build the Project**:
-    Use Maven to build the project and package it into a JAR file.
-    ```sh
-    mvn clean package
-    ```
+Use Maven to build the project and package it into a JAR file.
+```sh
+mvn clean package
+```
 
 3. **Run the Application**:
-    You can run the application using the provided shell script. Make sure the script has execute permissions. If not, you can set it using `chmod +x run.sh`.
-    ```sh
-    ./run.sh
-    ```
+You can run the application using the provided shell script. Make sure the script has execute permissions. If not, you can set it using `chmod +x run.sh`.
+```sh
+./run.sh
+```
 
-    Alternatively, you can run the application directly using the following command:
-    ```sh
-    java -cp target/player-communication-1.0-SNAPSHOT.jar com.example.Main
-    ```
+Alternatively, you can run the application directly using the following command:
+```sh
+java -cp target/player-communication-1.0-SNAPSHOT.jar com.example.Main
+```
 
 4. **Running Tests**:
-    To run the tests, use the Maven test command:
-    ```sh
-    mvn test
-    ```
+To run the tests, use the Maven test command:
+```sh
+mvn test
+```
 
 ## Project Details
 
@@ -82,3 +82,4 @@ The `PlayerTest` class contains a JUnit test to verify the functionality of the 
 
 - Ensure you have the correct version of JDK and Maven installed.
 - The stop condition for the communication is set to 10 messages.
+
